@@ -2,6 +2,7 @@
 # dataprev
 
 - local de lotação: Paraíba João Pessoa
+- data: 11/05/2025
 - local de prova
   - IFB - Instituto Federal Brasília - campus Brasília
   - asa norte, SGAN 610 - módulos D, E, F e G - via L2 norte
@@ -10,10 +11,33 @@
   - analista de tecnologia da informação
   - perfil 3: desenvolvimento de software
 
+## requisitos
+
+- identificação (identidade ou CNH com foto)
+- 4 canetas de tinta preta
+- lanche (chocolate) em vasilha transparente
+- garrafa d'água transparente
+- celular guardado na sacola lacrada
+- acertar no mínimo 50% das questões de cada bloco
+
+- bloco I: língua portuguesa
+- bloco II: conhecimentos específicos
+- bloco III: conhecimentos gerais
+
 ## características da prova
 
-- objetiva, múltipla escolha
+- objetiva
+  - ocorre no período matutino
+  - 70 questões de múltipla escolha
 - discursiva
+  - duração de 4h no período vespertino
+  - composta por:
+    - 6 questões dissertativas
+    - tema com base no bloco II - conhecimentos específicos
+    - 1 estudo de caso
+      - intrudução
+      - desenvolvimento
+        - conclusão
 
 - data 5 de maio de 2025
 
