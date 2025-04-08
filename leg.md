@@ -106,6 +106,9 @@
   - gerência executiva da PDPJ
   - grupos de trabalho
 
+> [!IMPORTANT]
+> comitê gestor nacional da PDPJ != comitês gestores dos tribunais
+
 ### comitê gestor nacional da PDPJ-Br
 
 - presidente do cnj: responsável pela indicação dos membros
@@ -127,16 +130,114 @@
     - homologar: aprovação de algo para uma autoridade judicial ou administrativa
   - ratificar decisões da gerência executiva
     - ratificar: confirmar oficialmente uma decisão que já foi tomada por outra pessoa/grupo
-    - gerência executiva: supervisiona o departamento de tecnologia da informação e comunicação do CNJ
       - composta por juízes do CNJ
   - propor normas regulamentadoras
   - sugerir modelo de rateio de custos
     - rateio de custos: dividir os custos de algo entre os envolvidos
   - deliberar sobre questões autorizadas pela presidência
 
+### comitês gestores dos tribunais
+
+- responsabilidades:
+  - avaliar necessidades de evulução e correção dos microsserviços e módulos
+  - propor uma organização para lidar com as demandas dos usuários
+  - divulgar as ações da PDPJ-Br
+  - apresentar o plano de ação ao Comitê Gestor Nacional
+  - acompanhar a execução do plano de ação
+  - monitorar e avaliar os resultados
+
+### gerência executiva do PDPJ-Br
+
+- responsabilidades:
+  - gerenciar as atividades de desenvolvimento, sustentação e evulução dos módulos e serviços
+  - definir os tribunais resposáveis pelo desenvolvimento de módulos e serviços
+  - designar líderes técnicos e gerentes de projetos
+  - facilitar a comunicação e resolver impedimentos
+  - criação e manutenção de Grupos Nacionais
+
+## grupo nacional de gerenciamento, desenvolvimento e sustentação
+
+## grupo nacional de requisitos de negócio
+
+- responsabilidades:
+  - analizar e organizar demandas de evolução ou melhoria da PDPJ-Br
+  - 
+
+## portaria nº253 de 2020
+
+- classificação dos serviços integrados à plataforma
+  - serviços estruturantes: funcionalidades básicas e essenciais para processos eletrônicos/integração/interoperabilidade da plataforma
+    - interoperabilidade da plataforma: capacidade de diferentes sistemas, aplicações ou componentes de uma plataforma trabalharem juntos de forma integrada/eficiente
+  - serviços negociais: soluções que atendem necessidades do negócio
+    - e.g. distribuição de processos, controle de custas e agendamento de audiências
+  - serviços de integração com sistemas externos: permitem que o PJ se conecte com sistemas de outras instituições
+  - soluções e aplicações da comunidade externa ao judiciário: serviços desenvolvidos por entes externos ao judiciário, voltados para atender às suas necessidades
+
+### arquitetura
+
+- PDPJ-Br está em transição do monelo monolítico para o de **microsserviços**
+- modelados preferencialmente seguindo a metodologia Domain Driven Design (DDD)
+- comunicação através de um MessageBroker
+
+processo de transição:
+
+1. identificar domínio que será convertido do sistema monolítico para o de microsserviços
+1. modelagem da API dentro do sistema monolítico, mas que futuramente será convertido para microsserviço independente
+1. adaptação do sistema monolítico para usar a nova API no lugar dos serviços antigos
+1. desacoplar o banco de dados do sistema monolítico, migrando ele para um banco de dados exclusivo do novo microsserviço
+1. CNJ fornece módulos estruturantes para evitar redundâncias nas APIs repetidas nos sistemas antigos
+
+- os microsserviços da PDPJ-Br usarão java com a framework Spring Boot
+  - apesar de java ser o padrão, é possível usar outras linguagens/frameworks
+
+### segurança
+
+- autenticação e autorização com OAuth2
+- serviço oferecido pelo Single-Sign-On (SSO) da PDPJ-Br
+  - será possível autenticar com o SSO em diversos sistemas com uma única autenticação
+
+### características
+
+- stateless
+- escalabilidade horizontal
+- CI/CD
+- TTD (Test Driven Development)
+- APIs devem seguir o padrão OpenAPI 3.0
+- uso de MessageBroker
+- APIs devem ser acessadas através de um gateway
+
+### nuvem e inteligência artificial
+
+- órgãos participantes têm flexibilidade para escolher onde manter suas soluções (nuvem ou "on premise")
+- conteinerização de código aberto
+
+## portaria nº 131 de 2021
+
+- institui o grupo revisor de código-fonte para PDPJ-Br e PJe
+  - grupo revisor de código-fonte: responsável por revisar as mudanças feitas no código-fonte dos sistemas do PDPJ-Br e PJe
+- garante que as implementação da CNJ e dos tribunais sejam de qualidade
+- responsabilidades
+  - testar código
+  - realizar sprints quinzenais
+- não é responsável por
+  - escolher projetos
+- composto por
+  - 5+ servidores indicados pelos tribunais de justiça estaduais
+  - 5+ servidores indicados pelo conselho da justiça federal
+  - 5+ servidores indicados pelo TSE
+  - 5+ servidores indicados pelo conselho superior da justiça do trabalho
+
 ---
 
-- PJ (Poder Judiciário)
+- Poder Judiciário (PJ)
+- Conselho Nacional de Justiça (CNJ)
+- Processo Judicial Eletrônico (PJe): sistema desenvolvido pelo CNJ e diversos tribunais brasileiros para automatizar a tramitação de processos judiciais
+  - tramitação de processo judicial: conjunto de procedimentos que um processo percorre do início até a decisão final do poder judiciário
+- Plataform Digital do Poder Judiciário Brasileiro (PDPJ-Br)
+- Departamento de Tecnologia da Informação (DTI)
+
+- portaria: ato administrativo que especifica como leis e normas serão implementadas
+  - ato administrativo: decisão de um órgão ou servidor público
 - governança: conjunto de práticas, regras, processos e estruturas usadas para tomar decisões e controlar uma organização/sistema
 - corregedoria: órgão responsável por fiscalizar, orientar e disciplinar a atuação de servidores ligados ao poder judiciário
   - não tem autoridade sobre os ministro do STF
