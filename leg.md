@@ -229,6 +229,75 @@ processo de transição:
 
 ---
 
+# leg 02
+
+## Protocolo de Prevenção De Incidentes Cibernéticos do Poder Judiciário (PPINC-PJ)
+
+> estabelece diretrizes essenciais para prevenir ameaças como ataques hackers e falhas nos sistemas
+
+- principais funções:
+  - identificar riscos
+  - proteger contra ameaças
+  - detectar incidentes cibernéticos
+  - responder: como agir após detectar um incidente
+  - recuperar disponibilidade do sistema após ataque
+
+- Equipe de prevenção, Tratamento e Resposta a Incidentes cibernéticos (ETIR)
+  - responsável por identificar e responder rapidamente qualquer incidente relacionado à segurança digital (exceto do STF)
+  - cada órgão do poder judiciário possui ETIR
+  - ETIR tem autonomia compartilhada
+
+- funcionamento da EITR é regulado por documento formal publicado no sítio eletrônico do respectivo órgão, deve constar:
+  - definição da missão
+  - público-alvo
+  - modelo de implementação
+  - nível de autonomia
+  - designação de integrantes
+  - canal de comunicação de incidentes de segurança
+  - serviços que serão prestados
+
+- práticas de segurança cibernética
+  - preparação
+  - identificação
+  - contenção
+  - erradicação
+  - recuperação
+  - lições aprendidas
+
+## Gerenciamento de Crises Cibernéticas do Poder Judiciário (PGCRC-PJ)
+
+- protocolo complementar ao PPINC-PJ
+- entra em ação quando o incidente cibernético não ser resolvido rapidamente
+
+- gerenciamento de crises
+  - 3 etapas:
+    - planejamento (pré-crise)
+    - execução (durante a crise)
+    - melhoria contínua (pós-crise)
+  - se inicia quando:
+    - ocorre dano material
+    - é evidente que as ações de resposta ao incidente cibernético persistirá por dias/semanas/meses
+    - incidente impactar serviço crítico
+    - incidente atrair grande atenção da mídia ou da população
+
+### planejamento (pré-crise)
+
+1. observar o PPINC-PJ
+1. definir quais são as atividades críticas
+1. identificar quais são os ativos de informação críticos (e.g. pessoas, processos, infraestrutura)
+1. avaliar continuamente riscos onde as atividades críticas são expostas
+1. categorizar incidentes e estabelecer procedimentos de resposta específicos para cada categoria
+1. priorizar monitoramento
+1. realizar simulações e testes para validação dos planos e procedimentos
+
+### execução (pré-crise)
+
+- quanto ETIR identificar um problema, o comitê de crise deve se reunir imediatamente
+
+### melhoria contínua (pós-crise)
+
+---
+
 - Poder Judiciário (PJ)
 - Conselho Nacional de Justiça (CNJ)
 - Processo Judicial Eletrônico (PJe): sistema desenvolvido pelo CNJ e diversos tribunais brasileiros para automatizar a tramitação de processos judiciais
