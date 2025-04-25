@@ -1,11 +1,24 @@
 
 # leg 00
 
-## Plataform Digital do Poder Judiciário Brasileiro (PDPJ-Br)
+## resolução 335/2020 Plataform Digital do Poder Judiciário Brasileiro (PDPJ-Br)
 
 - unifica vários sistemas existentes
+  - contém o PJe (Processo Judicial eletrônico)
 - segue as diretrizes da [LGPD](https://github.com/troclaux/notes/blob/main/lgpd.md)
-- adota soluções que abrangem:
+
+- objetivos do PDPJ-Br
+  - integrar e consolidar todos os sistemas eletrônicos do judiciário brasileiro em um ambiente unificado
+  - implantar o desenvolvimento comunitário, onde todos os tribunais contribuem com as melhores soluções tecnológicas
+  - estabelecer padrões de desenvolvimento, arquitetura e UX obedecendo as melhores práticas de mercado e disciplinado em portaria da presidência do CNJ
+    - i.e. regras e diretrizes sobre como desenvolver os sistemas serão estabelecidas em um documento chamado portaria, emitido pela presidência do CNJ
+  - instituir plataforma única para publicação/disponibilização de aplicações, microsserviços e modelos de IA, por meio de computação em nuvem
+
+- adota soluções que são:
+  - **preferencialmente** (não obrigatoriamente) open source
+  - incrementam robotização (automação) de tarefas repetitivas e operacionais
+  - adoção de técnicas inovadoras para desenvolvimento de soluções
+  - adaptável ao uso de ferramentas de IA e aprendizado de máquina
   - microsserviços
   - autenticação uniformizada
   - portabilidade
@@ -16,10 +29,41 @@
   - mobilidade
   - usabilidade
   - adequação à LGPD
-  - 
+  - alta coesão
+  - baixo acoplamento
+  - etc
+
+- pode ser provida por um serviço de computação em nuvem fornecido por uma empresa privada, desde que:
+  - atenda aos requisitos de:
+    - disponibilidade
+    - escalabilidade
+    - redundância
+    - criptografia
+    - datacenter esteja localizado em território nacional
 
 ### política de governança e gestão da PDPJ-Br
 
+- a política de governança e gestão da PDPJ-Br será regulamentada em ato da presidência do CNJ
+- a governança PDPJ-Br deverá estabelecer os seguintes requisitos:
+  - padrões de tabelas unificadas
+  - padrões de documentos digitais
+
+- a resolução CNJ 335/2020 não se aplica às soluções tecnológicas que não tratam de processo judicial eletrônico
+- tribunais que não possuem projetos de sistema processual público poderão aderir à PDPJ-Br
+  - inclusive colaborando no desenvolvimento de microsserviços
+
+- requisitos para os dados e documentos:
+  - tabelas unificadas
+  - padrões de documentos e assinaturas digitais
+  - possibilidades de bases centralizadas ou descentralizadas
+  - padrões de dados mínimos para o atendimento da LGPD
+
+- é proibido
+  - contratação de novas funcionalidades que cause dependência tecnológica do fornecedor que dificulte o compartilhamento da solução na PDPJ-Br
+
+- tribunais que não possuem projetos de sistema processual público poderão aderir à PDPJ-Br
+  - desenvolvimentos deve ser público e compartilhado com outros tribunais
+  - outros projetos podem ser mantidos e aprimorados para se adequar a PDPJ-Br
 
 ### gestão da PDPJ-Br
 
@@ -41,18 +85,33 @@
   - define os custos de processamento de microsserviços
   - armazenamento das bases de dados
 
-## 396/2021 Estratégia Nacional de SEgurança da informação e Cibernética do Poder Judiciário (ENSEC-PJ)
+## resolução 396/2021 Estratégia Nacional de SEgurança da informação e Cibernética do Poder Judiciário (ENSEC-PJ)
 
 > garante a proteção dos sistemas e dados dos órgãos do PJ, com exceção do STF
 
 - instituída pela resolução 396/2021
+
+- ações previstas pela ENSEC-PJ são **obrigatórias** para os órgãos do PJ, com exceção do STF
+
+- a resolução 396/2021 é aplicável para:
+  - quaisquer soluções tecnológicas que não sirvam o PJe, desde que sirvam o judiciário
+  - temas relacionados ao trabalho interno e administrativo do PJ
 
 - objetivos
   - aumentar segurança cibernética do Judiciário
   - aumentar a resiliência às ameaças cibernéticas
   - estabelecer governança de segurança cibernética
   - permitir manutenção e continuidade dos serviços ou seu reestabelecimento em menor tempo possível
-  - fortalecer a gestão e coordenação integrada de ações de segurança cibernética
+  - fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do PJ
+
+- modelo centralizado de governança nacional na segurança cibernética do PJ
+  - objetivos:
+    - estabelecer rotinas de verificações de conformidade em segurança cibernética
+    - coordenação dos entes relacionados a segurança cibernética
+    - possibilitar convergência de esforços e iniciativas de apuração de incidentes
+
+> [!TIP]
+> Centralizado => Conformidade
 
 - ações
   - fortalecer as ações de governança cibernética
@@ -60,9 +119,21 @@
   - estabelecer rede de cooperação do judiciário para segurança cibernética
   - estabelecer modelo centralizado de governança cibernética nacional
 
+- rede de cooperação do judiciário
+  - objetivo:
+    - promover ambiente participativo, colaborativo e seguro entre os órgãos do PJ
+    - fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
+    - compartilhar informações sobre incidentes e vulnerabilidades cibernéticas
+    - realizar parcerias com outros setores para aumentar segurança cibernética
+
+- Política de SEgurança Cibernética (PSEC-PJ)
+  - garante a segurança cibernética no PJ
+
 - Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ)
   - responsável por assessorar o CNJ sobre segurança da informação
-  - competências
+  - será coordenado pela autoridade responsável pela segurança da informação no respectivo órgão do PJ, nomeado por seu presidente
+    - OBS: todos os órgãos do PJ é liderado por um presidente
+  - competências:
     - estabelecer requisitos para implementação da gestão de risco dos ativos da informação do PJ
     - aprovar políticas sobre segurança da informação do PJ
     - implementar programas sobre segurança da informação para conscientizar e capacitar servidores do PJ
@@ -82,16 +153,6 @@
     - forças armadas
     - especialistas técnicos de outros órgãos públicos ou privados
 
-- rede de cooperação do judiciário
-  - objetivo:
-    - promover ambiente participativo, colaborativo e seguro entre os órgãos do PJ
-    - fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
-    - compartilhar informações sobre incidentes e vulnerabilidades cibernéticas
-    - realizar parcerias com outros setores para aumentar segurança cibernética
-
-- Política de SEgurança Cibernética (PSEC-PJ)
-  - garante a segurança cibernética no PJ
-
 ---
 
 # leg 01
@@ -99,7 +160,7 @@
 ## rede de governança da plataforma judicial do poder judiciário brasileiro
 
 - composta por
-  - comissão permanente de tecnologia da informação e infraestrutura do cnj: coordena toda a rede de governança da plataforma
+  - comissão permanente de tecnologia da informação e infraestrutura do CNJ: coordena toda a rede de governança da plataforma
   - comitê gestor nacional da PDPJ
     - cada tribunal tem seu comitê gestor
   - comitês gestores dos tribunais
@@ -213,6 +274,8 @@ processo de transição:
 
 ## portaria nº 131 de 2021
 
+- PJe (Processo Judicial eletrônico): sistema digital desenvolvido pelo CNJ em parceria com diversos tribunais brasileiros
+
 - institui o grupo revisor de código-fonte para PDPJ-Br e PJe
   - grupo revisor de código-fonte: responsável por revisar as mudanças feitas no código-fonte dos sistemas do PDPJ-Br e PJe
 - garante que as implementação da CNJ e dos tribunais sejam de qualidade
@@ -299,12 +362,17 @@ processo de transição:
 ---
 
 - Poder Judiciário (PJ)
-- Conselho Nacional de Justiça (CNJ)
+- Conselho Nacional de Justiça (CNJ): garante que os tribunais cumpram os deveres constitucionais
+  - Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ): assessora o CNJ
 - Processo Judicial Eletrônico (PJe): sistema desenvolvido pelo CNJ e diversos tribunais brasileiros para automatizar a tramitação de processos judiciais
   - tramitação de processo judicial: conjunto de procedimentos que um processo percorre do início até a decisão final do poder judiciário
+- Estratégia Nacional de SEgurança da informação e Cibernética do Poder Judiciário (ENSEC-PJ)
 - Plataform Digital do Poder Judiciário Brasileiro (PDPJ-Br)
+- Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
 - Departamento de Tecnologia da Informação (DTI)
+- Tecnologia da Informação e Comunicação (TIC)
 
+- disposições = normas = regras
 - portaria: ato administrativo que especifica como leis e normas serão implementadas
   - ato administrativo: decisão de um órgão ou servidor público
 - governança: conjunto de práticas, regras, processos e estruturas usadas para tomar decisões e controlar uma organização/sistema
