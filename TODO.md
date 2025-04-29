@@ -3,6 +3,8 @@
 
 - [ ] bd_06: oracle database
 - [ ] bd_07: sql server
+- [ ] bd_10: H2 database
+- [ ] bd_14: Hadoop
 
 [resolução 335/2020](https://atos.cnj.jus.br/atos/detalhar/3496)
 
@@ -54,13 +56,20 @@ resolução 396/2021
 - [x] 43
 - [x] 44
 - [x] 45 review
-- [ ] 46
-- [ ] 47
-- [ ] 48
-- [ ] 49
-- [ ] 50
-
-- [ ] 50
+- [x] 46
+- [x] 47
+- [x] 48
+- [x] 49
+- [x] 50
+- [x] 51
+- [x] 52
+- [x] 53
+- [x] 54
+- [x] 55
+- [x] 56
+- [x] 57
+- [x] 58
+- [x] 59
 - [ ] 60
 - [ ] 70
 - [ ] 80

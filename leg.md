@@ -98,7 +98,7 @@
   - temas relacionados ao trabalho interno e administrativo do PJ
 
 - objetivos
-  - aumentar segurança cibernética do Judiciário
+  - aumentar segurança cibernética do Judiciário e a inclusividade no ambiente digital
   - aumentar a resiliência às ameaças cibernéticas
   - estabelecer governança de segurança cibernética
   - permitir manutenção e continuidade dos serviços ou seu reestabelecimento em menor tempo possível
@@ -111,13 +111,14 @@
     - possibilitar convergência de esforços e iniciativas de apuração de incidentes
 
 > [!TIP]
-> Centralizado => Conformidade
+> Centralizado => Conformidade/Coordenação/Convergência
 
 - ações
   - fortalecer as ações de governança cibernética
   - elevar o nível de segurança das infraestruturas críticas
   - estabelecer rede de cooperação do judiciário para segurança cibernética
   - estabelecer modelo centralizado de governança cibernética nacional
+  - implementar um Sistema de Gestão de Segurança da Informação (SGSI), com auditorias internas obrigatórias
 
 - rede de cooperação do judiciário
   - objetivo:
@@ -125,12 +126,15 @@
     - fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
     - compartilhar informações sobre incidentes e vulnerabilidades cibernéticas
     - realizar parcerias com outros setores para aumentar segurança cibernética
+    - realizar exercícios cibernéticos com a participação de múltiplos entes
 
 - Política de SEgurança Cibernética (PSEC-PJ)
   - garante a segurança cibernética no PJ
 
 - Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ)
-  - responsável por assessorar o CNJ sobre segurança da informação
+  - objetivos:
+    - assessorar o CNJ sobre segurança da informação
+    - estabelecer norma para implementação da gestão de risco dos ativos da informação no PJ
   - será coordenado pela autoridade responsável pela segurança da informação no respectivo órgão do PJ, nomeado por seu presidente
     - OBS: todos os órgãos do PJ é liderado por um presidente
   - competências:
@@ -371,6 +375,7 @@ processo de transição:
 - Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
 - Departamento de Tecnologia da Informação (DTI)
 - Tecnologia da Informação e Comunicação (TIC)
+- Sistema de Gestão de Segurança da Informação (SGSI)
 
 - disposições = normas = regras
 - portaria: ato administrativo que especifica como leis e normas serão implementadas
