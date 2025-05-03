@@ -91,7 +91,10 @@
 
 - instituída pela resolução 396/2021
 
-- ações previstas pela ENSEC-PJ são **obrigatórias** para os órgãos do PJ, com exceção do STF
+- ações previstas pela ENSEC-PJ são **obrigatórias** para os órgãos do PJ, com **exceção do STF**
+- cada órgão do Poder Judiciário (exceto o STF) deverá constituir estrutura de segurança da informação, subordinada à alta administração do órgão e desvinculada da área de TIC
+  - o titular dessa estrutura será o gestor de segurança da informação do órgão
+    - titular = ocupar cargo de liderança
 
 - a resolução 396/2021 é aplicável para:
   - quaisquer soluções tecnológicas que não sirvam o PJe, desde que sirvam o judiciário
@@ -104,21 +107,27 @@
   - permitir manutenção e continuidade dos serviços ou seu reestabelecimento em menor tempo possível
   - fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do PJ
 
-- modelo centralizado de governança nacional na segurança cibernética do PJ
-  - objetivos:
-    - estabelecer rotinas de verificações de conformidade em segurança cibernética
-    - coordenação dos entes relacionados a segurança cibernética
-    - possibilitar convergência de esforços e iniciativas de apuração de incidentes
-
-> [!TIP]
-> Centralizado => Conformidade/Coordenação/Convergência
-
 - ações
+  - planejamento, sistematização, normatização sobre temas relacionados à segurança cibernética
+    - sistematização: organização e estruturação de informações/processos de forma lógica
+    - normatização: criação e estabelecimento de normas que devem ser seguidas
   - fortalecer as ações de governança cibernética
   - elevar o nível de segurança das infraestruturas críticas
   - estabelecer rede de cooperação do judiciário para segurança cibernética
   - estabelecer modelo centralizado de governança cibernética nacional
   - implementar um Sistema de Gestão de Segurança da Informação (SGSI), com auditorias internas obrigatórias
+  - formação acadêmica e técnica, qualificação e reciclagem de profissionais de TIC que atuam na área de segurança cibernética
+  - segurança física e proteção de dados pessoais e institucionais, pelos meios relacionados à cibersegurança
+
+> [!TIP]
+> Centralizado => Conformidade/Coordenação/Convergência
+> objetivos != ações
+
+- modelo centralizado de governança nacional na segurança cibernética do PJ
+  - objetivos:
+    - estabelecer rotinas de verificações de conformidade em segurança cibernética
+    - coordenação dos entes relacionados a segurança cibernética
+    - possibilitar convergência de esforços e iniciativas de apuração de incidentes
 
 - rede de cooperação do judiciário
   - objetivo:
@@ -129,12 +138,22 @@
     - realizar exercícios cibernéticos com a participação de múltiplos entes
 
 - Política de SEgurança Cibernética (PSEC-PJ)
-  - garante a segurança cibernética no PJ
+  - princípios:
+    - segurança jurídica
+    - respeito aos direitos humanos
+    - visão abrangente e sistêmica da segurança cibernética
+    - proteção dos dados pessoais
+    - proteção da privacidade
+    - acesso à informação
+  - objetivos:
+    - fomentar pesquisa científica
+    - a segurança cibernética no PJ
 
 - Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ)
   - objetivos:
     - assessorar o CNJ sobre segurança da informação
     - estabelecer norma para implementação da gestão de risco dos ativos da informação no PJ
+  - composto por todos os órgãos do PJ, exceto o STF
   - será coordenado pela autoridade responsável pela segurança da informação no respectivo órgão do PJ, nomeado por seu presidente
     - OBS: todos os órgãos do PJ é liderado por um presidente
   - competências:
@@ -226,7 +245,7 @@
 
 - responsabilidades:
   - analizar e organizar demandas de evolução ou melhoria da PDPJ-Br
-  - 
+  -
 
 ## portaria nº253 de 2020
 
@@ -282,6 +301,7 @@ processo de transição:
 
 - institui o grupo revisor de código-fonte para PDPJ-Br e PJe
   - grupo revisor de código-fonte: responsável por revisar as mudanças feitas no código-fonte dos sistemas do PDPJ-Br e PJe
+  - CNJ deverá promover um ambiente de testes padronizado para análise dos *merge requests* do PJe
 - garante que as implementação da CNJ e dos tribunais sejam de qualidade
 - responsabilidades
   - testar código
@@ -375,7 +395,9 @@ processo de transição:
 - Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ)
 - Departamento de Tecnologia da Informação (DTI)
 - Tecnologia da Informação e Comunicação (TIC)
-- Sistema de Gestão de Segurança da Informação (SGSI)
+- Sistema de Gestão de Segurança da Informação (SGSI): processos que visam proteger as informações de uma organização contra ameaças internas/externas
+  - garante a confidencialidade, integridade e disponibilidade das informações
+- Política de Cultura e Educação em Segurança Cibernética no âmbito do Poder Judiciário (PCESC-PJ): faz exatamente o que o nome diz
 
 - disposições = normas = regras
 - portaria: ato administrativo que especifica como leis e normas serão implementadas

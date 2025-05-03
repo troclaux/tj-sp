@@ -1,12 +1,20 @@
 
 # TODO
 
+- [x] aprender linguagem cobrada pela prova
+  - [x] C#
+  - [x] PHP
+- [ ] revisar linguagem cobrada pela prova
+  - [ ] C#
+  - [ ] PHP
+- [ ] ver exemplos de questões discursivas de ti
+- [ ] manifesto agil
 - [ ] bd_06: oracle database
 - [ ] bd_07: sql server
 - [ ] bd_10: H2 database
 - [ ] bd_14: Hadoop
 
-[resolução 335/2020](https://atos.cnj.jus.br/atos/detalhar/3496)
+## [resolução 335/2020](https://atos.cnj.jus.br/atos/detalhar/3496)
 
 - [x] 1
 - [x] 2
@@ -47,7 +55,7 @@
 - [ ] 37
 - [ ] 38
 
-resolução 396/2021
+## resolução 396/2021
 
 - [x] 39
 - [x] 40
@@ -71,15 +79,89 @@ resolução 396/2021
 - [x] 58
 - [x] 59
 - [ ] 60
-- [ ] 70
+- [x] 61 review
+- [x] 62
+- [x] 63
+- [x] 64
+- [x] 65
+- [x] 66
+- [x] 67
+- [x] 68
+- [x] 69
+- [x] 70
+- [x] 71
+- [x] 72
+- [x] 73
+- [ ] 74
+- [ ] 75
+- [ ] 76
+- [ ] 77
+- [ ] 78
+- [ ] 79
 - [ ] 80
+- [ ] 81
+- [ ] 82
+- [ ] 83
+- [ ] 84
+- [ ] 85
+- [ ] 86
+- [ ] 87
+- [ ] 88
+
+## [portaria 131/2021](https://atos.cnj.jus.br/atos/detalhar/3915)
+
+- [ ] 89
 - [ ] 90
+- [ ] 91
+- [ ] 92
+- [ ] 93
+- [ ] 94
+- [ ] 95
+- [ ] 96
+- [ ] 97
+- [ ] 98
+- [ ] 99
 - [ ] 100
+- [ ] 101
+- [ ] 102
+- [ ] 103
+- [ ] 104
+- [ ] 105
+- [ ] 106
+- [ ] 107
+- [ ] 108
+- [ ] 109
 - [ ] 110
+- [ ] 111
+- [ ] 112
+- [ ] 113
+- [ ] 114
+- [ ] 115
+- [ ] 116
+- [ ] 117
+- [ ] 118
+- [ ] 119
 - [ ] 120
+- [ ] 121
+- [ ] 122
+- [ ] 123
+- [ ] 124
+- [ ] 125
+- [ ] 126
+- [ ] 127
+- [ ] 128
+- [ ] 129
 - [ ] 130
+- [ ] 131
+- [ ] 132
+- [ ] 133
+- [ ] 134
+- [ ] 135
+- [ ] 136
+- [ ] 137
+- [ ] 138
+- [ ] 139
 - [ ] 140
 
 portaria 252/2020
-portaria 131/2021
 portaria 162/2021
