@@ -1,7 +1,6 @@
 
 # edital
 
-- local de lotação: Paraíba João Pessoa
 - data: 11/05/2025
 - horário:
   - abertura dos portões:

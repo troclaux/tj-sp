@@ -1,18 +1,46 @@
 
 # TODO
 
+Matéria: TI - Redes de Computadores
+Matéria: TI - Segurança da Informação
+Matéria: TI - Engenharia de Software
+Matéria: TI - Desenvolvimento de Sistemas
+Matéria: TI - Banco de Dados
+Banca: VUNESP
+Ano: 2021
+Ano: 2022
+Ano: 2023
+Ano: 2024
+Ano: 2025
+Escolaridade: Superior
+
+[tipos de questões discursivas](https://www.estrategiaconcursos.com.br/blog/formatos-prova-discursiva-cobrados-bancas/)
+
+- [ ] checar questões discursivas ti
+  - [x] dissertativas
+  - [ ] estudos de caso
+    - [ ] rever template de introdução
+- [ ] IA
+- [x] lógica
+- [ ] SQL
+- [ ] legislação
 - [x] aprender linguagem cobrada pela prova
   - [x] C#
   - [x] PHP
 - [ ] revisar linguagem cobrada pela prova
   - [ ] C#
   - [ ] PHP
-- [ ] ver exemplos de questões discursivas de ti
+- [x] ver exemplos de questões discursivas de ti
 - [ ] manifesto agil
-- [ ] bd_06: oracle database
-- [ ] bd_07: sql server
-- [ ] bd_10: H2 database
-- [ ] bd_14: Hadoop
+
+- [x] engenharia de software 04
+- [x] engenharia de software 05
+- [x] desenvolvimento de software 05
+- [x] desenvolvimento de software 06
+- [x] desenvolvimento de software 11
+- [ ] desenvolvimento de software 14
+- [x] desenvolvimento de software 15
+- [x] desenvolvimento de software 16
 
 ## [resolução 335/2020](https://atos.cnj.jus.br/atos/detalhar/3496)
 

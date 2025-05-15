@@ -1,0 +1,1 @@
+/home/troclaux/Documents/notes/logic.md
